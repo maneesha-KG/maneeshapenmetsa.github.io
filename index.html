@@ -286,6 +286,7 @@
     <a href="#skills">Skills</a>
     <a href="#experience">Experience</a>
     <a href="#projects">Projects</a>
+    <a href="#calendar">Schedule Call</a>
     <a href="#contact">Contact</a>
   </div>
 </nav>
@@ -491,13 +492,42 @@
 
 <!-- CONTACT -->
 <section id="contact">
-  <div class="contact-inner fade-in"
+  <div class="contact-inner fade-in">
     <h3>Let's work together</h3>
     <p>Quick to onboard, independent delivery.</p>
     <div class="contact-links">
       <a href="mailto:maneeshapenmetsa97@gmail.com" class="btn btn-primary">maneeshapenmetsa97@gmail.com</a>
       <a href="https://www.linkedin.com/in/maneeshapenmetsa/" target="_blank" class="btn btn-ghost">LinkedIn Profile</a>
     </div>
+  </div>
+</section>
+
+<!-- CALENDAR -->
+<section id="calendar">
+  <div class="section-label">Book a call</div>
+  <div class="section-title">Schedule a 15-min Chat</div>
+  <div style="
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 48px;
+    max-width: 640px;
+    text-align: center;
+  ">
+    <div style="font-size: 36px; margin-bottom: 16px;">📅</div>
+    <h3 style="font-size: 22px; font-weight: 700; margin-bottom: 12px; color: var(--text);">Book a 15-min Chat</h3>
+    <p style="color: var(--muted); font-size: 15px; margin-bottom: 32px; line-height: 1.7;">
+      Want to talk about a contract role or just connect?<br/>
+      Pick a slot and a Google Meet link lands in your inbox automatically.
+    </p>
+    <a
+      href="https://calendly.com/maneeshapenmetsa97/let-s-connect"
+      target="_blank"
+      class="btn btn-primary"
+      style="font-size: 15px; padding: 14px 36px;"
+    >
+      📅 &nbsp; Schedule a Call
+    </a>
   </div>
 </section>
 
@@ -512,5 +542,11 @@
   }, { threshold: 0.12 });
   document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
 </script>
+<!-- Calendly badge widget begin -->
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+<script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/maneeshapenmetsa97/let-s-connect?background_color=b6b6a9&primary_color=15697f', text: 'Schedule time with me', color: '#4dc3de', textColor: '#121111', branding: true }); }</script>
+<!-- Calendly badge widget end -->
+
 </body>
 </html>
